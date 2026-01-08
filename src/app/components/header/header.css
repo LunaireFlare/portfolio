@@ -1,12 +1,13 @@
 a {
-  background: linear-gradient(to right, #0D9475, #70AC35) 
-    bottom center/
-    var(--underline-width, 0%) 0.1em
-    no-repeat;
-  padding: 0 0 0.6rem;
+  background: linear-gradient(to right, #0D9475, #70AC35) bottom center;
+  background-size: 0% 0.13rem;
+  background-repeat: no-repeat;
+  padding-bottom: 0.6rem;
   transition: background-size 0.5s;
 }
 
-a:hover {
-  --underline-width: 100%;
+a:hover,
+a:active,
+a:focus {
+  background-size: 100% 0.13rem;
 }
