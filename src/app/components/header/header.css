@@ -11,3 +11,8 @@ a:active,
 a:focus {
   background-size: 100% 0.13rem;
 }
+
+.border-bottom {
+  border-image: linear-gradient(to right, rgba(50, 50, 50, 0) 0%, rgb(50, 50, 50, 1) 100%) 1;
+  border-bottom: 1px solid;
+}
