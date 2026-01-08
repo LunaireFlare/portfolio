@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+:root {
+  --main-color-1: #0D9475;
+  --main-color-2: #70AC35;
+}
+
+
+@theme {
+  --font-yuji-boku: "Yuji Boku", manuscript;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+html,
+body {
+  background-image: url("/bg.webp");
+  font-family: Ubuntu, Helvetica, Arial;
+  color: #ffffff;
+
+}
