@@ -6,6 +6,7 @@
     <!-- TODO: add click event -->
     <button
       type="button"
+      (click)="onMenuClick()"
       class="sm:hidden"
     >
     MENU
@@ -17,5 +18,14 @@
       <li><a href="#">Projects</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
+
+    @if (isMenuOpen) {
+      <div class="w-max bg-amber-400">
+        <li><a href="#" (click)="onMenuClick()">Stack</a></li>
+        <li><a href="#" (click)="onMenuClick()">Projects</a></li>
+        <li><a href="#" (click)="onMenuClick()">Contact</a></li>
+      </div>
+    }
+
   </nav>
 </header>
