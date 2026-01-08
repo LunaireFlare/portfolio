@@ -7,21 +7,23 @@
   --main-color-2: #70AC35;
 }
 
-
 @theme {
+  --font-im-fell: "IM Fell Double Pica", serif;
   --font-yuji-boku: "Yuji Boku", manuscript;
+  --font-belle-aurore: "La Belle Aurore", manuscript;
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0 1rem;
 }
 
 html,
 body {
   background-image: url("/bg.webp");
   font-family: Ubuntu, Helvetica, Arial;
-  color: #ffffff;
-
+  color: #d7d7d7;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
