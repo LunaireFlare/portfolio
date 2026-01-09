@@ -1,0 +1,12 @@
+<div class="flex flex-col gap-3 w-120 max-w-full h-85 border rounded-lg p-4 shadow-lg shadow-black">
+  <img 
+    [src]="project.imageUrl" 
+    alt="x project illustration"
+    class="w-full h-[80%] object-cover rounded-md"
+  />
+
+  <div>
+    <h3 class="font-im-fell text-xl italic">{{ project.title }}</h3>
+    <p class="gradient text-xs">{{ project.stack }}</p>
+  </div>
+</div>
