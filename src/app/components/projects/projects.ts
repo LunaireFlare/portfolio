@@ -17,7 +17,12 @@ export class Projects implements OnInit {
     this.projects = [
       new Project(
         "Rioval",
-        ["/projects/rioval/rioval1.png", "/projects/rioval/rioval2.png", "/projects/rioval/rioval3.png", "/projects/rioval/rioval4.png"],
+        [
+          "assets/projects/rioval/rioval1.png", 
+          "assets/projects/rioval/rioval2.png", 
+          "assets/projects/rioval/rioval3.png", 
+          "assets/projects/rioval/rioval4.png"
+        ],
         "html, tailwind, nextjs, typescript",
         "A simple and colourful website to showcase a French small business of the food industry and its recipes. It was designed to reflect the values of the company through vibrant colours and subtle animations. Fully responsive for mobile devices.",
         "https://www.rioval.fr/",
@@ -25,7 +30,11 @@ export class Projects implements OnInit {
       ),
       new Project(
         "Orizon",
-        ["/projects/orizon/orizon1.png", "/projects/orizon/orizon2.png", "/projects/orizon/orizon3.png"],
+        [
+          "assets/projects/orizon/orizon1.png", 
+          "assets/projects/orizon/orizon2.png", 
+          "assets/projects/orizon/orizon3.png"
+        ],
         "html, sass, react, typescript, nginx, docker, postgresql",
         "A social platform to help seniors maintain social links after retirement. Its core is its event system, allowing any member to create, search and participate in an event. It comes with an admin dashboard to moderate members and events, and uses a reverse proxy to link the frontends and backend.",
         "",
@@ -33,7 +42,10 @@ export class Projects implements OnInit {
       ),
       new Project(
         "Portfolio",
-        ["/space.avif"],
+        [
+          "assets/projects/portfolio/portfolio1.png",
+          "assets/projects/portfolio/portfolio2.png"
+        ],
         "html, tailwind, angular, typescript",
         "A first iteration of my personal portfolio, showcasing my projects and technical stack, to practice Angular and OOP. It is a work in progress, subject to change, and aims for full mobile responsiveness.",
         "#",
