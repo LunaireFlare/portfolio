@@ -1,9 +1,11 @@
 <section id="projects" class="w-full flex flex-col items-center gap-10 py-12">
   <h2 class="font-im-fell text-5xl italic self-start px-8 md:px-30 xl:px-50">Projects</h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-12 p-2">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-x-12 sm:gap-y-4 p-2">
     @for (project of projects; track project.title) {
-      <app-project-card [project]="project" />
+      <div class="even:md:mt-8">
+        <app-project-card [project]="project" />
+      </div>
     }
   </div>
 
