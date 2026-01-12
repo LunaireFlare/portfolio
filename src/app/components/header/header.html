@@ -14,16 +14,16 @@
 
     <!-- desktop nav -->
     <ul class="hidden sm:flex gap-12">
-      <li><a href="#">Stack</a></li>
+      <!-- <li><a href="#">Stack</a></li> -->
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     @if (isMenuOpen) {
       <div class="w-max bg-amber-400">
-        <li><a href="#" (click)="onMenuClick()">Stack</a></li>
-        <li><a href="#" (click)="onMenuClick()">Projects</a></li>
-        <li><a href="#" (click)="onMenuClick()">Contact</a></li>
+        <!-- <li><a href="#" (click)="onMenuClick()">Stack</a></li> -->
+        <li><a href="#projects" (click)="onMenuClick()">Projects</a></li>
+        <li><a href="#contact" (click)="onMenuClick()">Contact</a></li>
       </div>
     }
 
