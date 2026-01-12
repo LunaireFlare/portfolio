@@ -24,7 +24,7 @@ export class Projects implements OnInit {
           "assets/projects/rioval/rioval4.png"
         ],
         "html, tailwind, nextjs, typescript",
-        "A simple and colourful website to showcase a French small business of the food industry and its recipes. It was designed to reflect the values of the company through vibrant colours and subtle animations. Fully responsive for mobile devices.",
+        "A simple and colourful website to showcase a small French food business and its recipes. It was designed to reflect the values of the company through vibrant colours and subtle animations. Fully responsive for mobile devices.",
         "https://www.rioval.fr/",
         ""
       ),
@@ -36,7 +36,7 @@ export class Projects implements OnInit {
           "assets/projects/orizon/orizon3.png"
         ],
         "html, sass, react, typescript, nginx, docker, postgresql",
-        "A social platform to help seniors maintain social links after retirement. Its core is its event system, allowing any member to create, search and participate in an event. It comes with an admin dashboard to moderate members and events, and uses a reverse proxy to link the frontends and backend.",
+        "A social platform to help senior citizens maintain social links after retirement. At its core is the event system, allowing any member to create, search and participate in an event. It comes with an administrator dashboard to moderate members and events, and uses a reverse proxy to link the frontends and backend.",
         "",
         "https://github.com/LunaireFlare/orizon"
       ),
@@ -47,7 +47,7 @@ export class Projects implements OnInit {
           "assets/projects/portfolio/portfolio2.png"
         ],
         "html, tailwind, angular, typescript",
-        "A first iteration of my personal portfolio, showcasing my projects and technical stack, to practice Angular and OOP. It is a work in progress, subject to change, and aims for full mobile responsiveness.",
+        "A first iteration of my personal portfolio, showcasing my projects and technical stack, in order to practice Angular and OOP. It is a work in progress, subject to change, and aims to have full mobile responsiveness.",
         "#",
         "https://github.com/LunaireFlare/portfolio"
       ),
