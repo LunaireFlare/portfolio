@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './hero.css',
 })
 export class Hero {
-  heroImageSrc: string = '/hero.webp'
+  heroImageSrc: string = 'assets/images/hero.webp'
 }

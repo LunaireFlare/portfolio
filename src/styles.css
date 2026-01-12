@@ -19,7 +19,7 @@
 
 html,
 body {
-  background-image: url("/bg.webp");
+  background-image: url("/assets/images/bg.webp");
   font-family: Ubuntu, Helvetica, Arial;
   color: #d7d7d7;
   width: 100vw;
