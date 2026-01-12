@@ -9,3 +9,7 @@
     color: transparent;
     background-clip: text;
 }
+
+.gradient-bg {
+  background: linear-gradient(to bottom, #0D9475, #70AC35);
+}
