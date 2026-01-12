@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, DOCUMENT, Inject, Input, OnDestroy, OnInit } from '@angular/core';
 import { Project } from "../../models/project";
 
 @Component({
@@ -14,7 +14,17 @@ export class ProjectCard implements OnInit, OnDestroy {
   private imageIndex: number = 0;
   private intervalFunction!: any;
 
-  constructor(private cdr: ChangeDetectorRef) {}
+  bgImageUrl!: string;
+
+  constructor(
+    private cdr: ChangeDetectorRef,
+    @Inject(DOCUMENT) private document: Document
+  ) {
+    const baseHref = this.document.getElementsByTagName('base')[0]?.getAttribute('href') || '/';
+    this.bgImageUrl =
+      `url('${baseHref}assets/images/bg.webp') padding-box, ` +
+      `linear-gradient(to right, #0D9475, #70AC35) border-box`;
+  }
 
   ngOnInit(): void {
     if (this.project.imageUrls) {

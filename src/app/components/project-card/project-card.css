@@ -1,6 +1,6 @@
 .border {
-  background: url("assets/images/bg.webp") padding-box,
-              linear-gradient(to right, #0D9475, #70AC35) border-box;
+  /* background: url("/assets/images/bg.webp") padding-box,
+              linear-gradient(to right, #0D9475, #70AC35) border-box; */
   border: 1px solid transparent;
 }
 
