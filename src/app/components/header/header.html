@@ -1,31 +1,34 @@
-<!-- <header class="flex justify-between items-center h-[10%] px-15 border-b border-[#323232]"> -->
 <header class="flex justify-between items-center h-[10vh] w-full px-8 sm:px-15 border-bottom">
   <h1 class="font-im-fell text-3xl">lunaireflare</h1>
   <nav>
     <!-- mobile menu -->
-    <!-- TODO: add click event -->
     <button
       type="button"
       (click)="onMenuClick()"
       class="sm:hidden"
     >
-    MENU
+      <svg width="2rem" height="2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 6H20M4 12H20M4 18H20" stroke="#d7d7d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
     </button>
 
     <!-- desktop nav -->
     <ul class="hidden sm:flex gap-12">
-      <!-- <li><a href="#">Stack</a></li> -->
+      <!-- <li><a href="#stack">Stack</a></li> -->
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 
-    @if (isMenuOpen) {
-      <div class="w-max bg-amber-400">
-        <!-- <li><a href="#" (click)="onMenuClick()">Stack</a></li> -->
+    <div 
+      class="absolute left-0 w-full list-none mt-4 bg-[rgba(40,40,40,0.9)] transition-all duration-300 ease-in-out" 
+      [ngClass]="isMenuOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'"
+    >
+      <ul class="flex flex-col text-right gap-5 px-8 py-5">
+        <!-- <li><a href="#stack" (click)="onMenuClick()">Stack</a></li> -->
         <li><a href="#projects" (click)="onMenuClick()">Projects</a></li>
         <li><a href="#contact" (click)="onMenuClick()">Contact</a></li>
-      </div>
-    }
+      </ul>
+    </div>
 
   </nav>
 </header>

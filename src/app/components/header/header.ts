@@ -1,8 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { NgClass } from "@angular/common";
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [
+    NgClass
+  ],
   templateUrl: './header.html',
   styleUrl: './header.css',
 })
@@ -16,6 +19,12 @@ export class Header implements OnInit {
 
   onMenuClick(): void {
     this.isMenuOpen = !this.isMenuOpen;
-    console.log(this.isMenuOpen);
+  }
+
+  @HostListener('window:scroll')
+  onScroll(): void {
+    if (this.isMenuOpen) {
+      this.isMenuOpen = false;
+    }
   }
 }
