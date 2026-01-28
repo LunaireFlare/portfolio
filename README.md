@@ -1,59 +1,51 @@
-# Portfolio
+# [Portfolio]
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+## Overview
 
-## Development server
+This is a first iteration of my personal portfolio, showcasing my projects and technical stack, in order to practice Angular and OOP. It is a work in progress, subject to change, and aims to have full mobile responsiveness.
 
-To start a local development server, run:
+## Tech stack
 
-```bash
-ng serve
-```
+### Version control
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-## Code scaffolding
+### Design
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Affinity Designer](https://img.shields.io/badge/affinity%20designer-%231B72BE.svg?style=for-the-badge&logo=affinity-designer&logoColor=white)
 
-```bash
-ng generate component component-name
-```
+### Languages & frameworks
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
-```bash
-ng generate --help
-```
+## Description
 
-## Building
+**Live version**: available [here](https://lunaireflare.github.io/portfolio/).
 
-To build the project run:
+This project presented the perfect opportunity to build a first version of my personal portfolio as well as dive into a new tech. The goal was to familiarise myself with the Angular framework, as well as with the concepts of Object-Oriented Programmation (OOP). I also wanted to give special attention to UI/UX and responsiveness, by providing a minimalistic, accessible and seamless experience regardless of the device.
 
-```bash
-ng build
-```
+While the project is a work in progress and is bound to change, several updates are planned short-term:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- General refactor by adding services (*good for practicing despite being a little overkill*)
+- Improvement of accessibility via aria labels, roles, etc.
+- Considered addition of individual project pages for more in-depth view of the projects, which will allow routing
 
-## Running unit tests
+### Features
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- Full-size hero header
+- Navigation bar with link anchoring
+- Project grid with screenshots, description and useful links
+- Contact section with socials
 
-```bash
-ng test
-```
+### Practiced Skills
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- UI/UX design
+- Responsiveness
+- Object-Oriented Programmation (OOP)
+- Tailwind classes, grid layout
