@@ -52,6 +52,17 @@ export class Projects implements OnInit {
         "https://github.com/LunaireFlare/portfolio"
       ),
       new Project(
+        "Retrospective (in progress)",
+        [
+          "assets/projects/retrospective/retrospective1.png",
+          "assets/projects/retrospective/retrospective2.png"
+        ],
+        "html, tailwind, react, typescript | git, github",
+        "A fully responsive website for cinema aficionados, allowing users to see trending and upcoming movies in real time, as well as to search and favourite the movies of their choice. To expose the appropriate data, it consumes TMDB's API. More features are being considered (live version coming soon).",
+        "",
+        ""
+      ),
+      new Project(
         "Currently in development",
         [
           "assets/images/space.avif",
