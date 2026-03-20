@@ -57,9 +57,9 @@ export class Projects implements OnInit {
           "assets/projects/retrospective/retrospective1.png",
           "assets/projects/retrospective/retrospective2.png"
         ],
-        "html, tailwind, react, typescript | git, github",
-        "A fully responsive website for cinema aficionados, allowing users to see trending and upcoming movies in real time, as well as to search and favourite the movies of their choice. To expose the appropriate data, it consumes TMDB's API. More features are being considered (live version coming soon).",
-        "",
+        "html, tailwind, react, typescript | git, github, gh actions",
+        "A fully responsive website for cinema aficionados, allowing users to see trending and upcoming movies in real time, as well as to search and favourite the movies of their choice. To expose the appropriate data, it consumes TMDB's API, and uses GH Actions for its deployment pipeline. More features are being considered.",
+        "https://lunaireflare.github.io/retrospective",
         ""
       ),
       new Project(
